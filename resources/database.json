@@ -1,0 +1,677 @@
+{
+  "blockedIpAddresses": [],
+  "films": {
+    "0": {
+      "id": 0,
+      "title": "Promare",
+      "director": {
+        "id": 0,
+        "name": "Imaishi",
+        "surname": "Hiroyuki"
+      },
+      "roles": [
+        {
+          "name": "Lio",
+          "surname": "Fotia",
+          "actor": {
+            "id": 1,
+            "name": "Taichi",
+            "surname": "Saotome"
+          }
+        },
+        {
+          "name": "Galo",
+          "surname": "Thymos",
+          "actor": {
+            "id": 2,
+            "name": "Kenichi",
+            "surname": "Matsuyama"
+          }
+        },
+        {
+          "name": "Kray",
+          "surname": "Foresight",
+          "actor": {
+            "id": 3,
+            "name": "Masato",
+            "surname": "Sakai"
+          }
+        }
+      ],
+      "description": "A terrorist group calling themselves Mad Burnish has been causing havoc all over the nation. After an encounter with Mad Burnish leader Lio Fotia, Galo sets out on his fated journey to find the truth about these mutants, ultimately leading him to question everything he previously held to be true.",
+      "cover": {
+        "path": ".\\resources\\img\\promare.jpg"
+      }
+    },
+    "1": {
+      "id": 1,
+      "title": "Parasite",
+      "director": {
+        "id": 4,
+        "name": "Bong",
+        "surname": "Joon Ho"
+      },
+      "roles": [
+        {
+          "name": "Taek",
+          "surname": "Ki",
+          "actor": {
+            "id": 5,
+            "name": "Song",
+            "surname": "Kang-ho"
+          }
+        },
+        {
+          "name": "Dong",
+          "surname": "Ik",
+          "actor": {
+            "id": 6,
+            "name": "Lee",
+            "surname": "Sun-kyun"
+          }
+        },
+        {
+          "name": "Kyo",
+          "surname": "Yeon",
+          "actor": {
+            "id": 7,
+            "name": "Jo",
+            "surname": "Yeo-jeong"
+          }
+        },
+        {
+          "name": "Woo",
+          "surname": "Ki",
+          "actor": {
+            "id": 8,
+            "name": "Choi",
+            "surname": "Woo-sik"
+          }
+        },
+        {
+          "name": "Jung",
+          "surname": "Ki",
+          "actor": {
+            "id": 9,
+            "name": "Park",
+            "surname": "So-dam"
+          }
+        }
+      ],
+      "description": "A poor family, the Kims, con their way into becoming the servants of a rich family, the Parks. But their easy life gets complicated when their deception is threatened with exposure.",
+      "cover": {
+        "path": ".\\resources\\img\\parasite.jpg"
+      }
+    }
+  },
+  "people": {
+    "0": {
+      "id": 0,
+      "name": "Imaishi",
+      "surname": "Hiroyuki"
+    },
+    "1": {
+      "id": 1,
+      "name": "Taichi",
+      "surname": "Saotome"
+    },
+    "2": {
+      "id": 2,
+      "name": "Kenichi",
+      "surname": "Matsuyama"
+    },
+    "3": {
+      "id": 3,
+      "name": "Masato",
+      "surname": "Sakai"
+    },
+    "4": {
+      "id": 4,
+      "name": "Bong",
+      "surname": "Joon Ho"
+    },
+    "5": {
+      "id": 5,
+      "name": "Song",
+      "surname": "Kang-ho"
+    },
+    "6": {
+      "id": 6,
+      "name": "Lee",
+      "surname": "Sun-kyun"
+    },
+    "7": {
+      "id": 7,
+      "name": "Jo",
+      "surname": "Yeo-jeong"
+    },
+    "8": {
+      "id": 8,
+      "name": "Choi",
+      "surname": "Woo-sik"
+    },
+    "9": {
+      "id": 9,
+      "name": "Park",
+      "surname": "So-dam"
+    }
+  },
+  "showings": {
+    "0": {
+      "id": 0,
+      "film": {
+        "id": 0,
+        "title": "Promare",
+        "director": {
+          "id": 0,
+          "name": "Imaishi",
+          "surname": "Hiroyuki"
+        },
+        "roles": [
+          {
+            "name": "Lio",
+            "surname": "Fotia",
+            "actor": {
+              "id": 1,
+              "name": "Taichi",
+              "surname": "Saotome"
+            }
+          },
+          {
+            "name": "Galo",
+            "surname": "Thymos",
+            "actor": {
+              "id": 2,
+              "name": "Kenichi",
+              "surname": "Matsuyama"
+            }
+          },
+          {
+            "name": "Kray",
+            "surname": "Foresight",
+            "actor": {
+              "id": 3,
+              "name": "Masato",
+              "surname": "Sakai"
+            }
+          }
+        ],
+        "description": "A terrorist group calling themselves Mad Burnish has been causing havoc all over the nation. After an encounter with Mad Burnish leader Lio Fotia, Galo sets out on his fated journey to find the truth about these mutants, ultimately leading him to question everything he previously held to be true.",
+        "cover": {
+          "path": ".\\resources\\img\\promare.jpg"
+        }
+      },
+      "date": "Mar 28, 2020 5:00:00 PM",
+      "takenSeats": [
+        {
+          "row": 9,
+          "column": 10
+        },
+        {
+          "row": 9,
+          "column": 11
+        },
+        {
+          "row": 9,
+          "column": 12
+        },
+        {
+          "row": 5,
+          "column": 14
+        },
+        {
+          "row": 4,
+          "column": 0
+        },
+        {
+          "row": 4,
+          "column": 1
+        },
+        {
+          "row": 4,
+          "column": 2
+        },
+        {
+          "row": 5,
+          "column": 0
+        }
+      ]
+    },
+    "1": {
+      "id": 1,
+      "film": {
+        "id": 0,
+        "title": "Promare",
+        "director": {
+          "id": 0,
+          "name": "Imaishi",
+          "surname": "Hiroyuki"
+        },
+        "roles": [
+          {
+            "name": "Lio",
+            "surname": "Fotia",
+            "actor": {
+              "id": 1,
+              "name": "Taichi",
+              "surname": "Saotome"
+            }
+          },
+          {
+            "name": "Galo",
+            "surname": "Thymos",
+            "actor": {
+              "id": 2,
+              "name": "Kenichi",
+              "surname": "Matsuyama"
+            }
+          },
+          {
+            "name": "Kray",
+            "surname": "Foresight",
+            "actor": {
+              "id": 3,
+              "name": "Masato",
+              "surname": "Sakai"
+            }
+          }
+        ],
+        "description": "A terrorist group calling themselves Mad Burnish has been causing havoc all over the nation. After an encounter with Mad Burnish leader Lio Fotia, Galo sets out on his fated journey to find the truth about these mutants, ultimately leading him to question everything he previously held to be true.",
+        "cover": {
+          "path": ".\\resources\\img\\promare.jpg"
+        }
+      },
+      "date": "Mar 28, 2020 8:00:00 PM",
+      "takenSeats": [
+        {
+          "row": 1,
+          "column": 13
+        },
+        {
+          "row": 1,
+          "column": 14
+        }
+      ]
+    },
+    "2": {
+      "id": 2,
+      "film": {
+        "id": 0,
+        "title": "Promare",
+        "director": {
+          "id": 0,
+          "name": "Imaishi",
+          "surname": "Hiroyuki"
+        },
+        "roles": [
+          {
+            "name": "Lio",
+            "surname": "Fotia",
+            "actor": {
+              "id": 1,
+              "name": "Taichi",
+              "surname": "Saotome"
+            }
+          },
+          {
+            "name": "Galo",
+            "surname": "Thymos",
+            "actor": {
+              "id": 2,
+              "name": "Kenichi",
+              "surname": "Matsuyama"
+            }
+          },
+          {
+            "name": "Kray",
+            "surname": "Foresight",
+            "actor": {
+              "id": 3,
+              "name": "Masato",
+              "surname": "Sakai"
+            }
+          }
+        ],
+        "description": "A terrorist group calling themselves Mad Burnish has been causing havoc all over the nation. After an encounter with Mad Burnish leader Lio Fotia, Galo sets out on his fated journey to find the truth about these mutants, ultimately leading him to question everything he previously held to be true.",
+        "cover": {
+          "path": ".\\resources\\img\\promare.jpg"
+        }
+      },
+      "date": "Mar 29, 2020 10:00:00 AM",
+      "takenSeats": [
+        {
+          "row": 1,
+          "column": 7
+        }
+      ]
+    },
+    "3": {
+      "id": 3,
+      "film": {
+        "id": 1,
+        "title": "Parasite",
+        "director": {
+          "id": 4,
+          "name": "Bong",
+          "surname": "Joon Ho"
+        },
+        "roles": [
+          {
+            "name": "Taek",
+            "surname": "Ki",
+            "actor": {
+              "id": 5,
+              "name": "Song",
+              "surname": "Kang-ho"
+            }
+          },
+          {
+            "name": "Dong",
+            "surname": "Ik",
+            "actor": {
+              "id": 6,
+              "name": "Lee",
+              "surname": "Sun-kyun"
+            }
+          },
+          {
+            "name": "Kyo",
+            "surname": "Yeon",
+            "actor": {
+              "id": 7,
+              "name": "Jo",
+              "surname": "Yeo-jeong"
+            }
+          },
+          {
+            "name": "Woo",
+            "surname": "Ki",
+            "actor": {
+              "id": 8,
+              "name": "Choi",
+              "surname": "Woo-sik"
+            }
+          },
+          {
+            "name": "Jung",
+            "surname": "Ki",
+            "actor": {
+              "id": 9,
+              "name": "Park",
+              "surname": "So-dam"
+            }
+          }
+        ],
+        "description": "A poor family, the Kims, con their way into becoming the servants of a rich family, the Parks. But their easy life gets complicated when their deception is threatened with exposure.",
+        "cover": {
+          "path": ".\\resources\\img\\parasite.jpg"
+        }
+      },
+      "date": "Mar 28, 2020 10:00:00 AM",
+      "takenSeats": [
+        {
+          "row": 5,
+          "column": 14
+        },
+        {
+          "row": 5,
+          "column": 13
+        },
+        {
+          "row": 5,
+          "column": 12
+        },
+        {
+          "row": 3,
+          "column": 7
+        },
+        {
+          "row": 9,
+          "column": 5
+        },
+        {
+          "row": 2,
+          "column": 0
+        },
+        {
+          "row": 2,
+          "column": 1
+        },
+        {
+          "row": 2,
+          "column": 2
+        },
+        {
+          "row": 2,
+          "column": 3
+        },
+        {
+          "row": 2,
+          "column": 4
+        }
+      ]
+    },
+    "4": {
+      "id": 4,
+      "film": {
+        "id": 1,
+        "title": "Parasite",
+        "director": {
+          "id": 4,
+          "name": "Bong",
+          "surname": "Joon Ho"
+        },
+        "roles": [
+          {
+            "name": "Taek",
+            "surname": "Ki",
+            "actor": {
+              "id": 5,
+              "name": "Song",
+              "surname": "Kang-ho"
+            }
+          },
+          {
+            "name": "Dong",
+            "surname": "Ik",
+            "actor": {
+              "id": 6,
+              "name": "Lee",
+              "surname": "Sun-kyun"
+            }
+          },
+          {
+            "name": "Kyo",
+            "surname": "Yeon",
+            "actor": {
+              "id": 7,
+              "name": "Jo",
+              "surname": "Yeo-jeong"
+            }
+          },
+          {
+            "name": "Woo",
+            "surname": "Ki",
+            "actor": {
+              "id": 8,
+              "name": "Choi",
+              "surname": "Woo-sik"
+            }
+          },
+          {
+            "name": "Jung",
+            "surname": "Ki",
+            "actor": {
+              "id": 9,
+              "name": "Park",
+              "surname": "So-dam"
+            }
+          }
+        ],
+        "description": "A poor family, the Kims, con their way into becoming the servants of a rich family, the Parks. But their easy life gets complicated when their deception is threatened with exposure.",
+        "cover": {
+          "path": ".\\resources\\img\\parasite.jpg"
+        }
+      },
+      "date": "Mar 28, 2020 12:00:00 PM",
+      "takenSeats": [
+        {
+          "row": 3,
+          "column": 10
+        },
+        {
+          "row": 3,
+          "column": 9
+        },
+        {
+          "row": 8,
+          "column": 5
+        },
+        {
+          "row": 8,
+          "column": 6
+        }
+      ]
+    },
+    "5": {
+      "id": 5,
+      "film": {
+        "id": 1,
+        "title": "Parasite",
+        "director": {
+          "id": 4,
+          "name": "Bong",
+          "surname": "Joon Ho"
+        },
+        "roles": [
+          {
+            "name": "Taek",
+            "surname": "Ki",
+            "actor": {
+              "id": 5,
+              "name": "Song",
+              "surname": "Kang-ho"
+            }
+          },
+          {
+            "name": "Dong",
+            "surname": "Ik",
+            "actor": {
+              "id": 6,
+              "name": "Lee",
+              "surname": "Sun-kyun"
+            }
+          },
+          {
+            "name": "Kyo",
+            "surname": "Yeon",
+            "actor": {
+              "id": 7,
+              "name": "Jo",
+              "surname": "Yeo-jeong"
+            }
+          },
+          {
+            "name": "Woo",
+            "surname": "Ki",
+            "actor": {
+              "id": 8,
+              "name": "Choi",
+              "surname": "Woo-sik"
+            }
+          },
+          {
+            "name": "Jung",
+            "surname": "Ki",
+            "actor": {
+              "id": 9,
+              "name": "Park",
+              "surname": "So-dam"
+            }
+          }
+        ],
+        "description": "A poor family, the Kims, con their way into becoming the servants of a rich family, the Parks. But their easy life gets complicated when their deception is threatened with exposure.",
+        "cover": {
+          "path": ".\\resources\\img\\parasite.jpg"
+        }
+      },
+      "date": "Mar 29, 2020 4:00:00 PM",
+      "takenSeats": [
+        {
+          "row": 7,
+          "column": 7
+        },
+        {
+          "row": 7,
+          "column": 8
+        },
+        {
+          "row": 8,
+          "column": 9
+        },
+        {
+          "row": 8,
+          "column": 10
+        }
+      ]
+    }
+  },
+  "users": {
+    "a": {
+      "authentication": {
+        "username": "a",
+        "password": "86F7E437FAA5A7FCE15D1DDCB9EAEAEA377667B8"
+      },
+      "reservations": {
+        "0": {
+          "id": 0,
+          "showingId": 3,
+          "seats": [
+            {
+              "row": 2,
+              "column": 0
+            },
+            {
+              "row": 2,
+              "column": 1
+            },
+            {
+              "row": 2,
+              "column": 2
+            },
+            {
+              "row": 2,
+              "column": 3
+            },
+            {
+              "row": 2,
+              "column": 4
+            }
+          ]
+        },
+        "1": {
+          "id": 1,
+          "showingId": 0,
+          "seats": [
+            {
+              "row": 4,
+              "column": 0
+            },
+            {
+              "row": 4,
+              "column": 1
+            },
+            {
+              "row": 4,
+              "column": 2
+            },
+            {
+              "row": 5,
+              "column": 0
+            }
+          ]
+        }
+      }
+    }
+  }
+}

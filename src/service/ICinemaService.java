@@ -6,9 +6,6 @@ import javax.jws.HandlerChain;
 import javax.jws.WebMethod;
 import javax.jws.WebParam;
 import javax.jws.WebService;
-import javax.xml.ws.BindingType;
-import javax.xml.ws.soap.MTOM;
-import javax.xml.ws.soap.SOAPBinding;
 
 import exceptions.AuthenticationException;
 import exceptions.InvalidIdException;
@@ -22,9 +19,7 @@ import model.Reservation;
 import model.Seat;
 import model.Showing;
 
-@MTOM
 @WebService
-@BindingType(value = SOAPBinding.SOAP11HTTP_MTOM_BINDING)
 @HandlerChain(file = "handler-chain.xml")
 public interface ICinemaService {
 
@@ -68,7 +63,7 @@ public interface ICinemaService {
 			throws InvalidIdException, AuthenticationException;
 
 	@WebMethod(operationName = "MakeReservation")
-	public int makeReservation(
+	public String makeReservation(
 			@WebParam(name = "authentication") Authentication authentication, 
 			@WebParam(name = "reservation") Reservation reservation) 
 			throws SeatAlreadyTakenException, InvalidIdException, AuthenticationException;

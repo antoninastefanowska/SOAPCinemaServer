@@ -25,7 +25,8 @@ public class Showing {
 	private static Counter indexCounter = new Counter();
 	
 	private int id;
-	private Film film;
+	private int filmId;
+	private String filmTitle;
 	private Date date;
 	private List<Seat> takenSeats;
 	
@@ -35,7 +36,8 @@ public class Showing {
 	
 	public Showing(Film film, String dateString) {
 		this.takenSeats = new ArrayList<>();
-		this.film = film;
+		this.filmId = film.getId();
+		this.filmTitle = film.getTitle();
 		try {
 			this.date = DATE_FORMAT.parse(dateString);
 		} catch (ParseException e) {
@@ -45,12 +47,12 @@ public class Showing {
 	
 	@XmlElement(name = "FilmID")
 	public int getFilmId() {
-		return film.getId();
+		return filmId;
 	}
 	
 	@XmlElement(name = "FilmTitle")
 	public String getFilmTitle() {
-		return film.getTitle();
+		return filmTitle;
 	}
 	
 	@XmlElement(name = "DateEpoch")

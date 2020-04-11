@@ -102,6 +102,150 @@
       "cover": {
         "path": ".\\resources\\img\\parasite.jpg"
       }
+    },
+    "2": {
+      "id": 2,
+      "title": "The Farewell",
+      "director": {
+        "id": 10,
+        "name": "Lulu",
+        "surname": "Wang"
+      },
+      "roles": [
+        {
+          "name": "Nai",
+          "surname": "Nai",
+          "actor": {
+            "id": 11,
+            "name": "Shuzhen",
+            "surname": "Zhao"
+          }
+        },
+        {
+          "name": "Billi",
+          "surname": "",
+          "actor": {
+            "id": 12,
+            "name": "Awkwafina",
+            "surname": ""
+          }
+        },
+        {
+          "name": "Haiyan",
+          "surname": "",
+          "actor": {
+            "id": 13,
+            "name": "Tzi",
+            "surname": "Ma"
+          }
+        },
+        {
+          "name": "Lu",
+          "surname": "Jian",
+          "actor": {
+            "id": 14,
+            "name": "Diana",
+            "surname": "Lin"
+          }
+        }
+      ],
+      "description": "A Chinese family discovers their grandmother has only a short while left to live and decide to keep her in the dark, scheduling a wedding to gather before she dies.",
+      "cover": {
+        "path": ".\\resources\\img\\thefarewell.jpg"
+      }
+    },
+    "3": {
+      "id": 3,
+      "title": "Bo¿e Cia³o",
+      "director": {
+        "id": 15,
+        "name": "Jan",
+        "surname": "Komasa"
+      },
+      "roles": [
+        {
+          "name": "Daniel",
+          "surname": "",
+          "actor": {
+            "id": 16,
+            "name": "Bartosz",
+            "surname": "Bielenia"
+          }
+        },
+        {
+          "name": "Koœcielna",
+          "surname": "",
+          "actor": {
+            "id": 17,
+            "name": "Aleksandra",
+            "surname": "Konieczna"
+          }
+        },
+        {
+          "name": "Eliza",
+          "surname": "",
+          "actor": {
+            "id": 18,
+            "name": "Eliza",
+            "surname": "Rycembel"
+          }
+        },
+        {
+          "name": "Ksi¹dz Tomasz",
+          "surname": "",
+          "actor": {
+            "id": 19,
+            "name": "£ukasz",
+            "surname": "Simlat"
+          }
+        }
+      ],
+      "description": "Dwudziestoletni Daniel zostaje warunkowo zwolniony z poprawczaka. Wyje¿d¿a na drugi koniec Polski, ¿eby pracowaæ w stolarni, ale zamiast tego zaczyna udawaæ ksiêdza.",
+      "cover": {
+        "path": ".\\resources\\img\\bozecialo.jpg"
+      }
+    },
+    "4": {
+      "id": 4,
+      "title": "Spider-Man: Into the Spider-Verse",
+      "director": {
+        "id": 20,
+        "name": "Bob",
+        "surname": "Persichetti"
+      },
+      "roles": [
+        {
+          "name": "Miles",
+          "surname": "Morales",
+          "actor": {
+            "id": 21,
+            "name": "Shameik",
+            "surname": "Moore"
+          }
+        },
+        {
+          "name": "Peter B.",
+          "surname": "Parker",
+          "actor": {
+            "id": 22,
+            "name": "Jake",
+            "surname": "Johnson"
+          }
+        },
+        {
+          "name": "Gwen",
+          "surname": "Stacy",
+          "actor": {
+            "id": 23,
+            "name": "Hailee",
+            "surname": "Steinfeld"
+          }
+        }
+      ],
+      "description": "Teen Miles Morales becomes Spider-Man of his reality, crossing his path with five counterparts from other dimensions to stop a threat for all realities.",
+      "cover": {
+        "path": ".\\resources\\img\\intothespiderverse.jpg"
+      }
     }
   },
   "people": {
@@ -154,54 +298,84 @@
       "id": 9,
       "name": "Park",
       "surname": "So-dam"
+    },
+    "10": {
+      "id": 10,
+      "name": "Lulu",
+      "surname": "Wang"
+    },
+    "11": {
+      "id": 11,
+      "name": "Shuzhen",
+      "surname": "Zhao"
+    },
+    "12": {
+      "id": 12,
+      "name": "Awkwafina",
+      "surname": ""
+    },
+    "13": {
+      "id": 13,
+      "name": "Tzi",
+      "surname": "Ma"
+    },
+    "14": {
+      "id": 14,
+      "name": "Diana",
+      "surname": "Lin"
+    },
+    "15": {
+      "id": 15,
+      "name": "Jan",
+      "surname": "Komasa"
+    },
+    "16": {
+      "id": 16,
+      "name": "Bartosz",
+      "surname": "Bielenia"
+    },
+    "17": {
+      "id": 17,
+      "name": "Aleksandra",
+      "surname": "Konieczna"
+    },
+    "18": {
+      "id": 18,
+      "name": "Eliza",
+      "surname": "Rycembel"
+    },
+    "19": {
+      "id": 19,
+      "name": "£ukasz",
+      "surname": "Simlat"
+    },
+    "20": {
+      "id": 20,
+      "name": "Bob",
+      "surname": "Persichetti"
+    },
+    "21": {
+      "id": 21,
+      "name": "Shameik",
+      "surname": "Moore"
+    },
+    "22": {
+      "id": 22,
+      "name": "Jake",
+      "surname": "Johnson"
+    },
+    "23": {
+      "id": 23,
+      "name": "Hailee",
+      "surname": "Steinfeld"
     }
   },
   "showings": {
     "0": {
       "id": 0,
-      "film": {
-        "id": 0,
-        "title": "Promare",
-        "director": {
-          "id": 0,
-          "name": "Imaishi",
-          "surname": "Hiroyuki"
-        },
-        "roles": [
-          {
-            "name": "Lio",
-            "surname": "Fotia",
-            "actor": {
-              "id": 1,
-              "name": "Taichi",
-              "surname": "Saotome"
-            }
-          },
-          {
-            "name": "Galo",
-            "surname": "Thymos",
-            "actor": {
-              "id": 2,
-              "name": "Kenichi",
-              "surname": "Matsuyama"
-            }
-          },
-          {
-            "name": "Kray",
-            "surname": "Foresight",
-            "actor": {
-              "id": 3,
-              "name": "Masato",
-              "surname": "Sakai"
-            }
-          }
-        ],
-        "description": "A terrorist group calling themselves Mad Burnish has been causing havoc all over the nation. After an encounter with Mad Burnish leader Lio Fotia, Galo sets out on his fated journey to find the truth about these mutants, ultimately leading him to question everything he previously held to be true.",
-        "cover": {
-          "path": ".\\resources\\img\\promare.jpg"
-        }
-      },
-      "date": "Mar 28, 2020 5:00:00 PM",
+      "filmId": 0,
+      "filmTitle": "Promare",
+      "date": "Apr 18, 2020 5:00:00 PM",
       "takenSeats": [
         {
           "row": 9,
@@ -218,70 +392,14 @@
         {
           "row": 5,
           "column": 14
-        },
-        {
-          "row": 4,
-          "column": 0
-        },
-        {
-          "row": 4,
-          "column": 1
-        },
-        {
-          "row": 4,
-          "column": 2
-        },
-        {
-          "row": 5,
-          "column": 0
         }
       ]
     },
     "1": {
       "id": 1,
-      "film": {
-        "id": 0,
-        "title": "Promare",
-        "director": {
-          "id": 0,
-          "name": "Imaishi",
-          "surname": "Hiroyuki"
-        },
-        "roles": [
-          {
-            "name": "Lio",
-            "surname": "Fotia",
-            "actor": {
-              "id": 1,
-              "name": "Taichi",
-              "surname": "Saotome"
-            }
-          },
-          {
-            "name": "Galo",
-            "surname": "Thymos",
-            "actor": {
-              "id": 2,
-              "name": "Kenichi",
-              "surname": "Matsuyama"
-            }
-          },
-          {
-            "name": "Kray",
-            "surname": "Foresight",
-            "actor": {
-              "id": 3,
-              "name": "Masato",
-              "surname": "Sakai"
-            }
-          }
-        ],
-        "description": "A terrorist group calling themselves Mad Burnish has been causing havoc all over the nation. After an encounter with Mad Burnish leader Lio Fotia, Galo sets out on his fated journey to find the truth about these mutants, ultimately leading him to question everything he previously held to be true.",
-        "cover": {
-          "path": ".\\resources\\img\\promare.jpg"
-        }
-      },
-      "date": "Mar 28, 2020 8:00:00 PM",
+      "filmId": 0,
+      "filmTitle": "Promare",
+      "date": "Apr 18, 2020 8:00:00 PM",
       "takenSeats": [
         {
           "row": 1,
@@ -295,49 +413,9 @@
     },
     "2": {
       "id": 2,
-      "film": {
-        "id": 0,
-        "title": "Promare",
-        "director": {
-          "id": 0,
-          "name": "Imaishi",
-          "surname": "Hiroyuki"
-        },
-        "roles": [
-          {
-            "name": "Lio",
-            "surname": "Fotia",
-            "actor": {
-              "id": 1,
-              "name": "Taichi",
-              "surname": "Saotome"
-            }
-          },
-          {
-            "name": "Galo",
-            "surname": "Thymos",
-            "actor": {
-              "id": 2,
-              "name": "Kenichi",
-              "surname": "Matsuyama"
-            }
-          },
-          {
-            "name": "Kray",
-            "surname": "Foresight",
-            "actor": {
-              "id": 3,
-              "name": "Masato",
-              "surname": "Sakai"
-            }
-          }
-        ],
-        "description": "A terrorist group calling themselves Mad Burnish has been causing havoc all over the nation. After an encounter with Mad Burnish leader Lio Fotia, Galo sets out on his fated journey to find the truth about these mutants, ultimately leading him to question everything he previously held to be true.",
-        "cover": {
-          "path": ".\\resources\\img\\promare.jpg"
-        }
-      },
-      "date": "Mar 29, 2020 10:00:00 AM",
+      "filmId": 0,
+      "filmTitle": "Promare",
+      "date": "Apr 19, 2020 10:00:00 AM",
       "takenSeats": [
         {
           "row": 1,
@@ -347,67 +425,9 @@
     },
     "3": {
       "id": 3,
-      "film": {
-        "id": 1,
-        "title": "Parasite",
-        "director": {
-          "id": 4,
-          "name": "Bong",
-          "surname": "Joon Ho"
-        },
-        "roles": [
-          {
-            "name": "Taek",
-            "surname": "Ki",
-            "actor": {
-              "id": 5,
-              "name": "Song",
-              "surname": "Kang-ho"
-            }
-          },
-          {
-            "name": "Dong",
-            "surname": "Ik",
-            "actor": {
-              "id": 6,
-              "name": "Lee",
-              "surname": "Sun-kyun"
-            }
-          },
-          {
-            "name": "Kyo",
-            "surname": "Yeon",
-            "actor": {
-              "id": 7,
-              "name": "Jo",
-              "surname": "Yeo-jeong"
-            }
-          },
-          {
-            "name": "Woo",
-            "surname": "Ki",
-            "actor": {
-              "id": 8,
-              "name": "Choi",
-              "surname": "Woo-sik"
-            }
-          },
-          {
-            "name": "Jung",
-            "surname": "Ki",
-            "actor": {
-              "id": 9,
-              "name": "Park",
-              "surname": "So-dam"
-            }
-          }
-        ],
-        "description": "A poor family, the Kims, con their way into becoming the servants of a rich family, the Parks. But their easy life gets complicated when their deception is threatened with exposure.",
-        "cover": {
-          "path": ".\\resources\\img\\parasite.jpg"
-        }
-      },
-      "date": "Mar 28, 2020 10:00:00 AM",
+      "filmId": 1,
+      "filmTitle": "Parasite",
+      "date": "Apr 18, 2020 10:00:00 AM",
       "takenSeats": [
         {
           "row": 5,
@@ -428,92 +448,14 @@
         {
           "row": 9,
           "column": 5
-        },
-        {
-          "row": 2,
-          "column": 0
-        },
-        {
-          "row": 2,
-          "column": 1
-        },
-        {
-          "row": 2,
-          "column": 2
-        },
-        {
-          "row": 2,
-          "column": 3
-        },
-        {
-          "row": 2,
-          "column": 4
         }
       ]
     },
     "4": {
       "id": 4,
-      "film": {
-        "id": 1,
-        "title": "Parasite",
-        "director": {
-          "id": 4,
-          "name": "Bong",
-          "surname": "Joon Ho"
-        },
-        "roles": [
-          {
-            "name": "Taek",
-            "surname": "Ki",
-            "actor": {
-              "id": 5,
-              "name": "Song",
-              "surname": "Kang-ho"
-            }
-          },
-          {
-            "name": "Dong",
-            "surname": "Ik",
-            "actor": {
-              "id": 6,
-              "name": "Lee",
-              "surname": "Sun-kyun"
-            }
-          },
-          {
-            "name": "Kyo",
-            "surname": "Yeon",
-            "actor": {
-              "id": 7,
-              "name": "Jo",
-              "surname": "Yeo-jeong"
-            }
-          },
-          {
-            "name": "Woo",
-            "surname": "Ki",
-            "actor": {
-              "id": 8,
-              "name": "Choi",
-              "surname": "Woo-sik"
-            }
-          },
-          {
-            "name": "Jung",
-            "surname": "Ki",
-            "actor": {
-              "id": 9,
-              "name": "Park",
-              "surname": "So-dam"
-            }
-          }
-        ],
-        "description": "A poor family, the Kims, con their way into becoming the servants of a rich family, the Parks. But their easy life gets complicated when their deception is threatened with exposure.",
-        "cover": {
-          "path": ".\\resources\\img\\parasite.jpg"
-        }
-      },
-      "date": "Mar 28, 2020 12:00:00 PM",
+      "filmId": 1,
+      "filmTitle": "Parasite",
+      "date": "Apr 18, 2020 12:00:00 PM",
       "takenSeats": [
         {
           "row": 3,
@@ -535,67 +477,9 @@
     },
     "5": {
       "id": 5,
-      "film": {
-        "id": 1,
-        "title": "Parasite",
-        "director": {
-          "id": 4,
-          "name": "Bong",
-          "surname": "Joon Ho"
-        },
-        "roles": [
-          {
-            "name": "Taek",
-            "surname": "Ki",
-            "actor": {
-              "id": 5,
-              "name": "Song",
-              "surname": "Kang-ho"
-            }
-          },
-          {
-            "name": "Dong",
-            "surname": "Ik",
-            "actor": {
-              "id": 6,
-              "name": "Lee",
-              "surname": "Sun-kyun"
-            }
-          },
-          {
-            "name": "Kyo",
-            "surname": "Yeon",
-            "actor": {
-              "id": 7,
-              "name": "Jo",
-              "surname": "Yeo-jeong"
-            }
-          },
-          {
-            "name": "Woo",
-            "surname": "Ki",
-            "actor": {
-              "id": 8,
-              "name": "Choi",
-              "surname": "Woo-sik"
-            }
-          },
-          {
-            "name": "Jung",
-            "surname": "Ki",
-            "actor": {
-              "id": 9,
-              "name": "Park",
-              "surname": "So-dam"
-            }
-          }
-        ],
-        "description": "A poor family, the Kims, con their way into becoming the servants of a rich family, the Parks. But their easy life gets complicated when their deception is threatened with exposure.",
-        "cover": {
-          "path": ".\\resources\\img\\parasite.jpg"
-        }
-      },
-      "date": "Mar 29, 2020 4:00:00 PM",
+      "filmId": 1,
+      "filmTitle": "Parasite",
+      "date": "Apr 19, 2020 4:00:00 PM",
       "takenSeats": [
         {
           "row": 7,
@@ -614,64 +498,258 @@
           "column": 10
         }
       ]
+    },
+    "6": {
+      "id": 6,
+      "filmId": 2,
+      "filmTitle": "The Farewell",
+      "date": "Apr 17, 2020 12:00:00 PM",
+      "takenSeats": [
+        {
+          "row": 7,
+          "column": 13
+        },
+        {
+          "row": 6,
+          "column": 12
+        },
+        {
+          "row": 6,
+          "column": 11
+        },
+        {
+          "row": 3,
+          "column": 7
+        },
+        {
+          "row": 4,
+          "column": 5
+        }
+      ]
+    },
+    "7": {
+      "id": 7,
+      "filmId": 2,
+      "filmTitle": "The Farewell",
+      "date": "Apr 17, 2020 2:00:00 PM",
+      "takenSeats": [
+        {
+          "row": 9,
+          "column": 0
+        },
+        {
+          "row": 9,
+          "column": 1
+        },
+        {
+          "row": 3,
+          "column": 2
+        },
+        {
+          "row": 3,
+          "column": 7
+        },
+        {
+          "row": 3,
+          "column": 5
+        }
+      ]
+    },
+    "8": {
+      "id": 8,
+      "filmId": 2,
+      "filmTitle": "The Farewell",
+      "date": "Apr 18, 2020 2:00:00 PM",
+      "takenSeats": [
+        {
+          "row": 2,
+          "column": 10
+        },
+        {
+          "row": 2,
+          "column": 11
+        },
+        {
+          "row": 2,
+          "column": 12
+        }
+      ]
+    },
+    "9": {
+      "id": 9,
+      "filmId": 3,
+      "filmTitle": "Bo¿e Cia³o",
+      "date": "Apr 17, 2020 10:00:00 AM",
+      "takenSeats": [
+        {
+          "row": 0,
+          "column": 0
+        },
+        {
+          "row": 0,
+          "column": 1
+        },
+        {
+          "row": 0,
+          "column": 2
+        },
+        {
+          "row": 9,
+          "column": 14
+        },
+        {
+          "row": 9,
+          "column": 13
+        },
+        {
+          "row": 2,
+          "column": 5
+        },
+        {
+          "row": 2,
+          "column": 6
+        },
+        {
+          "row": 2,
+          "column": 7
+        },
+        {
+          "row": 2,
+          "column": 8
+        },
+        {
+          "row": 3,
+          "column": 5
+        },
+        {
+          "row": 3,
+          "column": 6
+        },
+        {
+          "row": 4,
+          "column": 7
+        },
+        {
+          "row": 3,
+          "column": 7
+        }
+      ]
+    },
+    "10": {
+      "id": 10,
+      "filmId": 3,
+      "filmTitle": "Bo¿e Cia³o",
+      "date": "Apr 17, 2020 4:00:00 PM",
+      "takenSeats": [
+        {
+          "row": 7,
+          "column": 3
+        },
+        {
+          "row": 7,
+          "column": 4
+        },
+        {
+          "row": 7,
+          "column": 5
+        },
+        {
+          "row": 7,
+          "column": 6
+        },
+        {
+          "row": 7,
+          "column": 7
+        }
+      ]
+    },
+    "11": {
+      "id": 11,
+      "filmId": 4,
+      "filmTitle": "Spider-Man: Into the Spider-Verse",
+      "date": "Apr 19, 2020 12:00:00 PM",
+      "takenSeats": [
+        {
+          "row": 9,
+          "column": 7
+        },
+        {
+          "row": 9,
+          "column": 8
+        },
+        {
+          "row": 9,
+          "column": 9
+        },
+        {
+          "row": 3,
+          "column": 5
+        },
+        {
+          "row": 4,
+          "column": 5
+        }
+      ]
+    },
+    "12": {
+      "id": 12,
+      "filmId": 4,
+      "filmTitle": "Spider-Man: Into the Spider-Verse",
+      "date": "Apr 19, 2020 2:00:00 PM",
+      "takenSeats": [
+        {
+          "row": 3,
+          "column": 8
+        },
+        {
+          "row": 3,
+          "column": 9
+        },
+        {
+          "row": 3,
+          "column": 10
+        }
+      ]
     }
   },
   "users": {
-    "a": {
+    "jankowalski": {
       "authentication": {
-        "username": "a",
-        "password": "86F7E437FAA5A7FCE15D1DDCB9EAEAEA377667B8"
+        "username": "jankowalski",
+        "password": "6C7CA345F63F835CB353FF15BD6C5E052EC08E7A"
       },
       "reservations": {
         "0": {
           "id": 0,
-          "showingId": 3,
+          "showingId": 9,
+          "code": "4eF8xvcsiPSwiLi",
           "seats": [
             {
-              "row": 2,
-              "column": 0
+              "row": 3,
+              "column": 5
             },
             {
-              "row": 2,
-              "column": 1
-            },
-            {
-              "row": 2,
-              "column": 2
-            },
-            {
-              "row": 2,
-              "column": 3
-            },
-            {
-              "row": 2,
-              "column": 4
-            }
-          ]
-        },
-        "1": {
-          "id": 1,
-          "showingId": 0,
-          "seats": [
-            {
-              "row": 4,
-              "column": 0
+              "row": 3,
+              "column": 6
             },
             {
               "row": 4,
-              "column": 1
+              "column": 7
             },
             {
-              "row": 4,
-              "column": 2
-            },
-            {
-              "row": 5,
-              "column": 0
+              "row": 3,
+              "column": 7
             }
           ]
         }
       }
+    },
+    "annanowak": {
+      "authentication": {
+        "username": "annanowak",
+        "password": "315F166C5ACA63A157F7D41007675CB44A948B33"
+      },
+      "reservations": {}
     }
   }
 }

@@ -36,10 +36,11 @@ public class User {
 		this.authentication = authentication;
 	}
 	
-	public int addReservation(Reservation reservation) {
+	public String addReservation(Reservation reservation) {
 		int id = reservation.generateId();
+		String code = reservation.generateCode();
 		reservations.put(id, reservation);
-		return id;
+		return code;
 	}
 	
 	public void removeReservation(Reservation reservation) {
@@ -48,7 +49,9 @@ public class User {
 	}
 	
 	public void setReservation(int id, Reservation reservation) {
+		Reservation oldReservation = reservations.get(id);
 		reservation.setId(id);
+		reservation.setCode(oldReservation.getCode());
 		reservations.put(id, reservation);
 	}
 	

@@ -3,6 +3,9 @@ package service;
 import java.util.List;
 
 import javax.jws.WebService;
+import javax.xml.ws.BindingType;
+import javax.xml.ws.soap.MTOM;
+import javax.xml.ws.soap.SOAPBinding;
 
 import exceptions.AuthenticationException;
 import exceptions.InvalidIdException;
@@ -18,6 +21,8 @@ import model.Seat;
 import model.Showing;
 import model.User;
 
+@MTOM
+@BindingType(value = SOAPBinding.SOAP11HTTP_MTOM_BINDING)
 @WebService(endpointInterface = "service.ICinemaService")
 public class CinemaService implements ICinemaService {
 	private Database database;
@@ -116,7 +121,7 @@ public class CinemaService implements ICinemaService {
 	}
 
 	@Override
-	public int makeReservation(Authentication authentication, Reservation reservation) 
+	public String makeReservation(Authentication authentication, Reservation reservation) 
 			throws SeatAlreadyTakenException, InvalidIdException, AuthenticationException {
 		
 		
@@ -130,9 +135,9 @@ public class CinemaService implements ICinemaService {
 		
 		showing.makeReservation(reservation);
 		System.out.println("Utworzono rezerwacjê.");
-		int reservationId = user.addReservation(reservation);
+		String reservationCode = user.addReservation(reservation);
 		database.saveData();
-		return reservationId;
+		return reservationCode;
 	}
 
 	@Override

@@ -1,10 +1,11 @@
 package model;
 
-import java.io.File;
+import java.io.FileNotFoundException;
 import java.io.FileReader;
 import java.io.FileWriter;
 import java.io.IOException;
 import java.util.ArrayList;
+import java.util.Comparator;
 import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
@@ -23,6 +24,16 @@ public class Database {
 	private Map<String, User> users;
 	
 	private static final Gson gson = new GsonBuilder().setPrettyPrinting().create();
+	private static final Comparator<Showing> showingsComparator = new Comparator<Showing>() {
+		@Override
+		public int compare(Showing showing1, Showing showing2) {
+			if (showing1.getDateEpoch() < showing2.getDateEpoch())
+				return -1;
+			else
+				return 1;
+		}
+		
+	};
 	
 	public Database() {
 		this.blockedIpAddresses = new ArrayList<>();
@@ -32,91 +43,6 @@ public class Database {
 		this.users = new HashMap<>();
 	}
 	
-	@SuppressWarnings("unused")
-	private void initialize() {
-		Person director = new Person("Imaishi", "Hiroyuki");
-		addPerson(director);
-		Film film = new Film("Promare", director, "A terrorist group calling themselves Mad Burnish has been causing havoc all over the nation. After an encounter with Mad Burnish leader Lio Fotia, Galo sets out on his fated journey to find the truth about these mutants, ultimately leading him to question everything he previously held to be true.");
-		film.setCover("promare.jpg");
-		
-		Person actor = new Person("Taichi", "Saotome");
-		addPerson(actor);
-		film.addRole(new Role("Lio", "Fotia", actor));
-		
-		actor = new Person("Kenichi", "Matsuyama");
-		addPerson(actor);
-		film.addRole(new Role("Galo", "Thymos", actor));
-		
-		actor = new Person("Masato", "Sakai");
-		addPerson(actor);
-		film.addRole(new Role("Kray", "Foresight", actor));
-		addFilm(film);
-		
-		Showing showing = new Showing(film, "28-03-2020 17:00");
-		showing.takeSeat(new Seat(9, 10));
-		showing.takeSeat(new Seat(9, 11));
-		showing.takeSeat(new Seat(9, 12));
-		showing.takeSeat(new Seat(5, 14));
-		addShowing(showing);
-		
-		showing = new Showing(film, "28-03-2020 20:00");
-		showing.takeSeat(new Seat(1, 13));
-		showing.takeSeat(new Seat(1, 14));
-		addShowing(showing);
-		
-		showing = new Showing(film, "29-03-2020 10:00");
-		showing.takeSeat(new Seat(1, 7));
-		addShowing(showing);
-		
-		director = new Person("Bong", "Joon Ho");
-		addPerson(director);
-		film = new Film("Parasite", director, "A poor family, the Kims, con their way into becoming the servants of a rich family, the Parks. But their easy life gets complicated when their deception is threatened with exposure.");
-		film.setCover("parasite.jpg");
-		
-		actor = new Person("Song", "Kang-ho");
-		addPerson(actor);
-		film.addRole(new Role("Taek", "Ki", actor));
-		
-		actor = new Person("Lee", "Sun-kyun");
-		addPerson(actor);
-		film.addRole(new Role("Dong", "Ik", actor));
-		
-		actor = new Person("Jo", "Yeo-jeong");
-		addPerson(actor);
-		film.addRole(new Role("Kyo", "Yeon", actor));
-		
-		actor = new Person("Choi", "Woo-sik");
-		addPerson(actor);
-		film.addRole(new Role("Woo", "Ki", actor));
-		
-		actor = new Person("Park", "So-dam");
-		addPerson(actor);
-		film.addRole(new Role("Jung", "Ki", actor));
-		addFilm(film);
-		
-		showing = new Showing(film, "28-03-2020 10:00");
-		showing.takeSeat(new Seat(5, 14));
-		showing.takeSeat(new Seat(5, 13));
-		showing.takeSeat(new Seat(5, 12));
-		showing.takeSeat(new Seat(3, 7));
-		showing.takeSeat(new Seat(9, 5));
-		addShowing(showing);
-		
-		showing = new Showing(film, "28-03-2020 12:00");
-		showing.takeSeat(new Seat(3, 10));
-		showing.takeSeat(new Seat(3, 9));
-		showing.takeSeat(new Seat(8, 5));
-		showing.takeSeat(new Seat(8, 6));
-		addShowing(showing);
-		
-		showing = new Showing(film, "29-03-2020 16:00");
-		showing.takeSeat(new Seat(7, 7));
-		showing.takeSeat(new Seat(7, 8));
-		showing.takeSeat(new Seat(8, 9));
-		showing.takeSeat(new Seat(8, 10));
-		addShowing(showing);
-	}
-	
 	public static Database getInstance() {
 		if (instance == null)
 			loadData();
@@ -124,15 +50,12 @@ public class Database {
 	}
 	
 	public static void loadData() {
-		File file = new File(FILE_PATH);
-		if (!file.exists())
-			return;
 		try {
-			FileReader reader = new FileReader(file);
+			FileReader reader = new FileReader(FILE_PATH);
 			Database loaded = gson.fromJson(reader, Database.class);
 			Database.instance = loaded;
-		} catch (IOException e) {
-			e.printStackTrace();
+		} catch (FileNotFoundException e) {
+			Database.instance = DataInitializer.createDatabase();
 		}
 	}
 	
@@ -151,7 +74,9 @@ public class Database {
 	}
 
 	public List<Showing> getShowings() {
-		return new ArrayList<>(showings.values());
+		List<Showing> showingsList = new ArrayList<>(showings.values());
+		showingsList.sort(showingsComparator);
+		return showingsList;
 	}
 
 	public List<User> getUsers() {
